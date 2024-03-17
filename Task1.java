@@ -1,10 +1,22 @@
+
 public class Task1 {
     public static void main(String[] args) {
-        System.out.println("Task1");
-        int count = 8;
-        if (count > 7) {
-            System.out.println("Hello");
+        int a = 7;
+        int b = 2;
+        int sum = a + b;
+        int sub = a - b;
+        int mult = a * b;
+        int div = a / b;
+        if (a < b) {
+            System.out.println("a < b");
+        } else if (a > b) {
+            System.out.println("a > b");
+        } else {
+            System.out.println("a = b");
         }
-
+        System.out.println(sum);
+        System.out.println(sub);
+        System.out.println(mult);
+        System.out.println(div);
     }
 }

@@ -1,18 +1,10 @@
 public class Task2 {
-    public static class Main {
-        public static void main(String[] args) {
-            System.out.println("Task2");
-            String name = "Vyacheslav";
-            String nameInsert = String.valueOf(5);
-
-            if (name == String.valueOf(nameInsert)) {
-                System.out.println("Привет Вячеслав");
-            } else {
-                boolean b = name != String.valueOf(nameInsert);
-                {
-                    System.out.println("Нет такого имени");
-                }
-            }
+    public static void main(String[] args) {
+        String a = "v";
+        String b = "v";
+        if (a.equals(b)) {
+            System.out.println("Строки идентичны");
+        }else{ System.out.println("Строки неидентичны");
         }
     }
 }
